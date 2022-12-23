@@ -2,7 +2,7 @@
     "name": "Remove tweet view count",
     "version": "1.0",
     "description": "Removes the view count under all tweets",
-    "homepage_url": "http://github.com/murilocarrijosilva/",
+    "homepage_url": "http://github.com/murilocarrijosilva/remove-tweet-view-count",
     "manifest_version": 2,
     "icons": {
         "48": "icons/48.png"
