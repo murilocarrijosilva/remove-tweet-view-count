@@ -22,5 +22,10 @@
                 "remove_tweet_view_count.css"
             ]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "remove-tweet-view-count@murilocarrijosilva.com"
+        }
+    }
 }
