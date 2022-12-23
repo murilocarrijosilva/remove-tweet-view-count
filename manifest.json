@@ -1,0 +1,26 @@
+{
+    "name": "Remove tweet view count",
+    "version": "1.0",
+    "description": "Removes the view count under all tweets",
+    "homepage_url": "http://github.com/murilocarrijosilva/",
+    "manifest_version": 2,
+    "icons": {
+        "48": "icons/48.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.twitter.com/*"
+            ],
+            "all_frames": true,
+            "run_at": "document_start",
+            "css": [
+                "remove_tweet_view_count.css"
+            ]
+        }
+    ]
+}
